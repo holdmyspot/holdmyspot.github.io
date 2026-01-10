@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+
+    <style>
+        :root {
+            --bg-dark: #222831;
+            --bg-card: #393E46;
+            --accent: #FFD369;
+            --text-light: #EEEEEE;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text-light);
+        }
+
+        /* PAGE GRID */
+        .page {
+            display: grid;
+            grid-template-rows:
+                auto
+                /* navbar */
+                auto
+                /* hero */
+                auto
+                /* service + prototype */
+                auto
+                /* about */
+                auto
+                /* team */
+                auto;
+            /* newsletter */
+            row-gap: 60px;
+        }
+
+        /* NAVBAR GRID */
+        .navbar {
+            background-color: var(--bg-card);
+            color: var(--text-light);
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+            height: 64px;
+        }
+
+        .navbar {
+            a {
+                line-height: 1;
+            }
+        }
+
+
+        /* TWO COLUMN SECTION */
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 40px;
+        }
+
+        /* TEAM GRID */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        /* NEWSLETTER GRID */
+        .newsletter-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+
+            .two-columns,
+            .newsletter-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="page">
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <div class="logo">
+                Hold my Spot
+                <img src="./public/logo.jpg" alt="logo" width="40" height="40" />
+            </div>
+
+            <nav class="nav-spacer"></nav>
+
+            <div class="nav-actions">
+                <!-- icons / buttons -->
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <section class="hero">
+            <!-- your content -->
+        </section>
+
+        <!-- SERVICE + PROTOTYPE -->
+        <section class="two-columns">
+            <div class="service"></div>
+            <div class="prototype"></div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about"></section>
+
+        <!-- TEAM -->
+        <section class="team-grid">
+            <div class="team-member"></div>
+            <div class="team-member"></div>
+            <div class="team-member"></div>
+            <div class="team-member"></div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter-grid">
+            <div class="newsletter-text"></div>
+            <div class="newsletter-form"></div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
