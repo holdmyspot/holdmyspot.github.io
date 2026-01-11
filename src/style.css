@@ -1,96 +1,195 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --bg-dark: #222831;
+  --bg-card: #393e46;
+  --accent: #ffd369;
+  --text-light: #eeeeee;
 }
 
 body {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: Garamond, serif;
+  font-size: 20px;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* PAGE GRID */
+.page {
+  display: grid;
+  grid-template-rows:
+    auto
+    /* navbar */
+    auto
+    /* hero */
+    auto
+    /* service + prototype */
+    auto
+    /* about */
+    auto
+    /* team */
+    auto;
+  /* newsletter */
+  row-gap: 30px;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* NAVBAR GRID */
+.navbar {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: var(--bg-card);
+  color: var(--text-light);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  height: 64px;
+}
+
+.navbar {
+  a {
+    line-height: 1;
+  }
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.icons {
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border-radius: 5px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.hero {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+#sloganText {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* TWO COLUMN SECTION */
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  padding: 0 200px;
+}
+
+.service {
+  background-color: var(--bg-card);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+#serviceHeader {
+  font-size: 36px;
+  margin-top: 15px;
+}
+
+.prototype {
+  text-align: center;
+}
+
+#prototypeHeader {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+#prototypeButton {
+  margin-top: 15px;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 4px;
+  color: var(--bg-dark);
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--bg-card);
+  margin: 0 200px;
+}
+.about {
+  text-align: center;
+  margin: 0;
+}
+
+#aboutHeader {
+  font-size: 65px;
+  margin: 0 0 15px;
+}
+
+/* TEAM GRID */
+#teamHeader {
+  font-size: 40px;
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin: 0 0 10px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.team-member {
+  color: var(--bg-dark);
+  background: var(--accent);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* NEWSLETTER GRID */
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+#newsletterHeader {
+  font-size: 48px;
+  margin: 0 0 10px;
+}
+
+#emailInput {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid var(--bg-dark);
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: var(--bg-card);
+}
+
+#subscribeButton {
+  padding: 10px 20px;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 8px;
+  color: var(--bg-dark);
+  font-size: 16px;
+  cursor: pointer;
 }
