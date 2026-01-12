@@ -8,7 +8,7 @@
 body {
   background: var(--bg-dark);
   color: var(--text-light);
-  font-family: Garamond, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   margin: 0;
 }
@@ -57,6 +57,11 @@ body {
   height: 40px;
 }
 
+.link {
+  display: inline-flex;
+  width: fit-content;
+}
+
 .icons {
   cursor: pointer;
   border-radius: 5px;
@@ -69,6 +74,7 @@ body {
 
 .hero p {
   margin: 0;
+  padding: 0 150px;
   line-height: 1.4;
 }
 
@@ -85,6 +91,7 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 100px;
   padding: 0 200px;
+  margin: 10px 0;
 }
 
 .service {
@@ -92,12 +99,13 @@ body {
   border-radius: 8px;
   text-align: center;
   margin: 0px;
-  padding: 10px;
+  padding: 10px 30px;
 }
 
 #serviceHeader {
   font-size: 36px;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .prototype {
@@ -106,11 +114,11 @@ body {
 
 #prototypeHeader {
   font-size: 36px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 #prototypeButton {
-  margin-top: 15px;
   padding: 10px 20px;
   width: 100%;
   background-color: var(--accent);
@@ -161,9 +169,10 @@ hr {
   padding: 20px;
 }
 
-/* NEWSLETTER GRID */
-.newsletter-grid {
+/* FOOTER */
+footer {
   display: grid;
+  margin-bottom: 30px;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: center;
