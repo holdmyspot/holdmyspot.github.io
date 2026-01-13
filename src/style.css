@@ -33,7 +33,7 @@ body {
 }
 
 /* NAVBAR GRID */
-.navbar {
+header {
   padding-left: 25px;
   padding-right: 25px;
   background-color: var(--bg-card);
@@ -44,10 +44,8 @@ body {
   height: 64px;
 }
 
-.navbar {
-  a {
-    line-height: 1;
-  }
+header > div > a {
+  line-height: 1;
 }
 
 .logo {
