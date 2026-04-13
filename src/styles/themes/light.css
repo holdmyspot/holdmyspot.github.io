@@ -1,52 +1,58 @@
 /* Light theme tokens. Applied when an ancestor sets [data-theme="light"] (default) */
 [data-theme="light"] {
-  --accent: #FF7A1A; /* brighter for light */
-  --accent-dark: #EA580C;
-  --accent-rgb: 255, 122, 26;
+  /* Primary Brand Colors (Basati su #FFD369, leggermente più saturi per contrasto su bianco) */
+  --accent: #FFC947; 
+  --accent-dark: #E6B339;
+  --accent-rgb: 255, 201, 71;
 
-  --black: 15, 18, 25;
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
+  /* Neutral Colors basati sulla tua palette */
+  --black: 34, 40, 49;       /* #222831 */
+  --gray: 57, 62, 70;        /* #393E46 */
+  --gray-light: 220, 220, 220; /* Basato su #EEEEEE scurito */
+  --gray-dark: 20, 20, 20;
 
-  --background: #ffffff;
-  --foreground: #0f1219;
-  --card: #ffffff;
-  --card-foreground: #0f1219;
-  --popover: #ffffff;
-  --popover-foreground: #0f1219;
-  --primary: var(--accent);
-  --primary-foreground: #ffffff;
-  --secondary: #FFB36B;
-  --secondary-foreground: #0f1219;
-  --muted: rgb(246, 247, 249);
-  --muted-foreground: rgb(96, 115, 159);
-  --accent-foreground: #0f1219;
+  --background: #EEEEEE;
+  --foreground: #222831;
+  
+  /* Surfaces */
+  --card: #FFFFFF; /* Bianco puro per far risaltare le card sullo sfondo #EEEEEE */
+  --card-foreground: #222831;
+  --popover: #FFFFFF;
+  --popover-foreground: #222831;
+  
+  --primary: #FFD369;
+  --primary-foreground: #222831; /* Contrasto scuro su oro */
+  
+  --secondary: #393E46;
+  --secondary-foreground: #EEEEEE;
+  
+  --muted: #E0E0E0;
+  --muted-foreground: #5a6270;
+  --accent-foreground: #222831;
 
   /* Semantic Color Tokens for components */
-  --color-text-primary: rgb(var(--black));
-  --color-text-secondary: rgb(var(--gray-dark));
-  --color-text-muted: rgb(var(--gray));
+  --color-text-primary: #222831;
+  --color-text-secondary: #393E46;
+  --color-text-muted: #6c757d;
   --color-bg-primary: var(--background);
-  --color-bg-secondary: rgba(0, 0, 0, 0.03);
-  --color-bg-tertiary: rgba(0, 0, 0, 0.05);
+  --color-bg-secondary: rgba(0, 0, 0, 0.04);
+  --color-bg-tertiary: rgba(0, 0, 0, 0.08);
 
   /* Borders */
-  --color-border: rgba(0, 0, 0, 0.12);
-  --color-border-light: rgba(0, 0, 0, 0.08);
+  --color-border: rgba(34, 40, 49, 0.15);
+  --color-border-light: rgba(34, 40, 49, 0.08);
 
-  --info: #38bdf8;
-  --info-foreground: #082f49;
-  --success: #22c55e;
-  --success-foreground: #052e16;
-  --warning: #f59e0b;
-  --warning-foreground: #451a03;
-  --error: #ef4444;
+  /* Status Colors (leggermente adattati per leggibilità su light) */
+  --info: #0288d1;
+  --info-foreground: #ffffff;
+  --success: #2e7d32;
+  --success-foreground: #ffffff;
+  --warning: #ed6c02;
+  --warning-foreground: #ffffff;
+  --error: #d32f2f;
   --error-foreground: #ffffff;
 
-  --border: rgb(229, 233, 240);
-  --input: rgb(229, 233, 240);
+  --border: #D1D5DB;
+  --input: #D1D5DB;
   --outline: var(--accent);
 }
-
-
