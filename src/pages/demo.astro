@@ -7,8 +7,6 @@ import Footer from "../components/sections/Footer.astro";
 import HeroSection from "../components/sections/HeroSection.astro";
 import SkillsSection from "../components/sections/SkillsSection.astro";
 import WorkExperience from "../components/sections/WorkExperience.astro";
-import Studies from "../components/sections/Studies.astro";
-import ProjectsSection from "../components/sections/Projects.astro";
 
 // UI components
 import Badge from "../components/ui/badge/Badge.astro";
@@ -29,7 +27,6 @@ import Timeline from "../components/ui/timeline/Timeline.astro";
 import { logos } from "../data/logos";
 import { skills } from "../data/skills";
 import { work, workIcons } from "../data/work";
-import { studies } from "../data/studies";
 
 // Content
 import { getCollection } from 'astro:content';
@@ -152,8 +149,6 @@ const [firstPost, secondPost, thirdPost] = posts.slice(0, 3);
       <section class="space-y-6">
         <SkillsSection title="Skills & Tools" skills={skills} />
         <WorkExperience title="Work Experience" items={work} />
-        <Studies title="Studies" items={studies} />
-        <ProjectsSection title="Projects" />
       </section>
     </main>
     <Footer />

@@ -10,15 +10,6 @@ import WorkExperience from "../components/sections/WorkExperience.astro";
 import { work } from "../data/work";
 import ArrowSeparator from "../components/ui/separator/ArrowSeparator.astro";
 import GlowLineSeparator from "../components/ui/separator/GlowLineSeparator.astro";
-
-// Logos
-import astroLogo from "../assets/logos/Astro-logo.svg";
-import googleAdsLogo from "../assets/logos/GoogleAds-logo.svg";
-import posthogLogo from "../assets/logos/posthog-logo.svg";
-import notionLogo from "../assets/logos/Notion-logo.svg";
-import figmaLogo from "../assets/logos/Figma-logo.svg";
-
-// skills are imported from src/data/skills
 ---
 
 <!doctype html>
@@ -48,7 +39,7 @@ import figmaLogo from "../assets/logos/Figma-logo.svg";
 
       <section class="py-6">
         <ArrowSeparator />
-        <WorkExperience title="Work Experience" items={work} />
+        <WorkExperience items={work} />
         <ArrowSeparator />
         <SkillsSection title="Skills & Tools" skills={skills} />
         <GlowLineSeparator />
