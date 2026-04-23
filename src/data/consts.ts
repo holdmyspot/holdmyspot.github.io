@@ -1,4 +1,2 @@
-// Place global site metadata constants here.
-
-export const SITE_TITLE = 'Site Author – Personal Blog & Portfolio';
-export const SITE_DESCRIPTION = 'Growth engineering, analytics, and product marketing notes. Case studies, experiments, and projects by Site Author.';
+export const SITE_TITLE = 'Hold my Spot - Parcheggia in un click';
+export const SITE_DESCRIPTION = 'Trasformiamo il caos della ricerca parcheggio in una soluzione digitale semplice, sostenibile e immediata per utenti e gestori.';

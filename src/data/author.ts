@@ -1,11 +1,8 @@
-import avatar from '../assets/images/sample-avatar.jpg';
-
 export const author = {
-  name: 'Site Author',
-  avatar,
+  name: 'Team Hold my Spot',
+  avatar: '/favicon.png?v=1',
   url: '#',
+  school: 'I.T.T.S. Fedi-Fermi Pistoia',
 };
 
 export type Author = typeof author;
-
-

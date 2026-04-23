@@ -23,15 +23,27 @@ const contactIcon = sanitizeToWhite(contactIconRaw);
 
 <footer id="contact" class="pb-12 px-4 text-center">
   <h2 class="text-2xl md:text-3xl font-semibold text-foreground">
-    Want to work with me?
+    Portiamo Hold my Spot nella tua città
   </h2>
-  <p class="mt-2 text-[color:var(--color-text-muted)]">
-    Let's build something together!
+  <p class="mt-2 text-[color:var(--color-text-muted)] max-w-xl mx-auto">
+    Sei un gestore di parcheggi o un'amministrazione locale? <br
+      class="hidden md:block"
+    />
+    Contattaci per scoprire come digitalizzare i tuoi spazi e abbattere il traffico
+    urbano.
   </p>
-  <div class="mt-6 flex justify-center">
+
+  <div class="mt-6 flex flex-col items-center gap-4">
     <Button href="https://github.com/holdmyspot/" variant="secondary" size="md">
       <span class="inline-flex" aria-hidden="true" set:html={contactIcon} />
-      Get in touch
+      Contatta il Team su GitHub
     </Button>
+
+    <div
+      class="mt-8 pt-8 border-t border-white/5 w-full max-w-xs text-xs opacity-50"
+    >
+      <p>© {new Date().getFullYear()} Hold my Spot</p>
+      <p>I.T.T.S. Fedi-Fermi Pistoia</p>
+    </div>
   </div>
 </footer>

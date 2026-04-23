@@ -6,16 +6,16 @@ import Carousel from "../components/ui/carousel/Carousel.astro";
 import { logos } from "../data/logos";
 ---
 
-<html lang="en" data-theme="dark" class="dark">
+<html lang="it" data-theme="dark" class="dark">
   <head>
     <BaseHead
-      title={"About Me"}
-      description={"Learn more about my background and approach to software engineering."}
+      title={"Chi Siamo - Hold my Spot"}
+      description={"Scopri il team e la visione dietro la rivoluzione del parcheggio smart."}
     />
     <style>
       .prose {
         width: 100%;
-        max-width: 870px; /* widen column */
+        max-width: 870px;
         margin: auto;
         padding: 0.05em;
         color: var(--color-text-secondary);
@@ -24,11 +24,16 @@ import { logos } from "../data/logos";
         margin-bottom: 1em;
         padding: 1em 0;
         text-align: center;
-        line-height: 1;
+        line-height: 1.2;
       }
       .title h1 {
         margin: 0 0 0.5em 0;
         color: var(--color-text-primary);
+        font-size: 2.5rem;
+      }
+      .highlight {
+        color: var(--color-text-primary);
+        font-weight: 600;
       }
     </style>
   </head>
@@ -39,35 +44,63 @@ import { logos } from "../data/logos";
       <article>
         <div class="prose">
           <div class="title">
-            <h1>About Me</h1>
+            <h1>La nostra Missione</h1>
             <p>
-              I'm a senior software engineer passionate about building reliable
-              systems and delightful user experiences.
+              Trasformiamo l'attesa in arrivo. Hold my Spot è la risposta
+              digitale al caos urbano.
             </p>
 
-            <div class="py-2">
+            <div class="py-6">
               <Carousel tools={logos} />
+              <p class="text-sm italic text-center opacity-70">
+                Le tecnologie che rendono possibile il nostro ecosistema
+              </p>
             </div>
           </div>
 
           <p>
-            I work across the stack with TypeScript, Node.js, React/Next.js, and
-            PostgreSQL. I care deeply about readable code, strong tests, and
-            observability. My approach: ship small, iterate quickly, measure
-            outcomes.
-          </p>
-          <p>
-            Recent highlights include leading a migration from a monolith to
-            well-scoped services, improving p95 latency, and introducing CI/CD
-            with preview environments and quality gates.
-          </p>
-          <p>
-            Outside of feature work, I enjoy mentoring, documentation, and
-            building design-system components that make teams faster. Always
-            learning and always happy to collaborate on meaningful problems.
+            Siamo un team di studenti dell'<span class="highlight"
+              >I.T.T.S. Fedi-Fermi di Pistoia</span
+            >, uniti dalla voglia di risolvere un problema che affligge ogni
+            automobilista: lo stress della ricerca parcheggio. <span
+              class="highlight">Hold my Spot</span
+            > non è solo un'app, è un nuovo modo di concepire la mobilità urbana.
           </p>
 
-          <div class="sw-separator-glow" style="--sep-width: 100%;">
+          <p>
+            Il nostro approccio è guidato dalla <span class="highlight"
+              >sostenibilità</span
+            > e dall'efficienza. Riducendo il tempo trascorso a girare a vuoto in
+            città, non solo risparmiamo tempo e carburante agli utenti, ma contribuiamo
+            attivamente alla riduzione delle emissioni di CO2 nei centri abitati.
+          </p>
+
+          <p>
+            Dal punto di vista tecnico, abbiamo sviluppato una piattaforma
+            robusta utilizzando <span class="highlight"
+              >Flutter, Astro e sistemi di gestione dati in tempo reale</span
+            >. La nostra architettura permette una scalabilità immediata,
+            consentendo ai gestori di parcheggi di digitalizzare i propri spazi
+            in pochi minuti, senza investimenti in hardware costosi.
+          </p>
+
+          <p>
+            Oltre al codice, quello che ci muove è l'ambizione di partire dalle
+            realtà locali — le province e le città medie — per dimostrare che
+            l'innovazione può e deve essere accessibile a tutti, subito.
+          </p>
+
+          <div class="py-8 text-center">
+            <p class="text-lg italic">
+              "Il futuro della sosta è nelle tue mani. Letteralmente."
+            </p>
+            <p class="font-bold mt-2">— Team Hold my Spot</p>
+          </div>
+
+          <div
+            class="sw-separator-glow"
+            style="--sep-width: 100%; margin-top: 2rem;"
+          >
             <div class="sw-glow"></div>
             <span class="sr-only">Separator</span>
           </div>

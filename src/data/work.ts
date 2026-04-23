@@ -11,73 +11,57 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+    title: "La Soluzione al Caos Urbano",
+    company: "Problema & Vision",
+    region: "Smart Mobility",
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+      "Il 30% del traffico cittadino è causato dalla ricerca di parcheggio. Hold my Spot elimina lo stress, il consumo inutile di carburante e la perdita di tempo permettendo di prenotare il posto auto direttamente dal divano.",
     technologies: [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
+      "Riduzione Stress",
+      "Sostenibilità",
+      "Efficienza",
+      "Mobilità 4.0"
     ],
   },
   {
-    title: "Staff Software Engineer",
-    company: "FinchPay",
-    region: "Global",
+    title: "User Experience Immediata",
+    company: "Per l'Automobilista",
+    region: "App & Web",
     description:
-      "Architected event‑driven payment services with idempotency and retries, introduced Kafka for async processing, enforced API versioning, and drove observability with structured logging and tracing.",
+      "Tre semplici step: Trova il parcheggio inserendo la città, scegli il metodo di pagamento e acquista. Una volta arrivati, basta sbloccare il posto col telefono: niente attese, solo la certezza del posto assicurato.",
     technologies: [
-      "TypeScript",
-      "NestJS",
-      "Kafka",
-      "PostgreSQL",
-      "Redis",
-      "gRPC",
-      "OpenTelemetry",
-      "AWS",
+      "Flutter",
+      "Sistemi di Pagamento",
+      "Geolocalizzazione",
+      "Real-time Booking"
     ],
   },
   {
-    title: "Senior Frontend Engineer",
-    company: "Insight Analytics",
-    region: "Europe",
+    title: "Digitalizzazione Zero Costi",
+    company: "Per il Gestore",
+    region: "Business Integration",
     description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
+      "Rendiamo l'adesione semplicissima: nessun hardware costoso richiesto. Al gestore basta inserire dati e coordinate per digitalizzare l'offerta immediatamente e senza rischi, ricevendo pagamenti diretti.",
     technologies: [
-      "React",
-      "Next.js",
-      "Astro",
-      "Tailwind CSS",
-      "Playwright",
-      "Vitest",
+      "Manager Panel",
+      "Nessun Hardware",
+      "Zero Investimenti",
+      "Gestione Dati Sicura"
     ],
   },
   {
-    title: "Software Engineer",
-    company: "LaunchPad",
-    region: "Brazil",
+    title: "Scalabilità e Profitto",
+    company: "Modello di Business",
+    region: "Analisi Finanziaria",
     description:
-      "Built MVPs end‑to‑end: designed REST/GraphQL APIs, set up CI/CD with preview environments, introduced feature flags, and migrated data to Postgres.",
+      "Focus sulle province e città medie, spesso trascurate dai grandi competitor. Il nostro guadagno deriva da una commissione di 1€ + 20% sul prezzo del parcheggio. Prevediamo il break-even point al terzo anno con un profitto netto di 138.500€.",
     technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
-      "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Docker",
+      "Commission-based",
+      "Focus Province",
+      "Target Professional",
+      "Revenue Growth"
     ],
   },
 ];
 
 export type WorkItem = (typeof work)[number];
-
