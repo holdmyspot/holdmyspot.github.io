@@ -11,36 +11,27 @@ function sanitizeToWhite(svg: string, size = 18) {
     // Ensure shapes are visible: use white via currentColor on fill, drop strokes
     .replace(/fill=\"[^\"]*\"/gi, 'fill="currentColor"')
     .replace(/stroke=\"[^\"]*\"/gi, 'stroke="none"');
-  s = s.replace(/<svg([^>]*)>/, (m, attrs) => `<svg${attrs} width="${size}" height="${size}">`);
+  s = s.replace(
+    /<svg([^>]*)>/,
+    (m, attrs) => `<svg${attrs} width="${size}" height="${size}">`,
+  );
   return s;
 }
 
 const contactIcon = sanitizeToWhite(contactIconRaw);
-const feedUrl = new URL('rss.xml', Astro.site).toString();
 ---
 
 <footer id="contact" class="pb-12 px-4 text-center">
-  <h2 class="text-2xl md:text-3xl font-semibold text-foreground">Want to work with me?</h2>
-  <p class="mt-2 text-[color:var(--color-text-muted)]">Let's build something together!</p>
+  <h2 class="text-2xl md:text-3xl font-semibold text-foreground">
+    Want to work with me?
+  </h2>
+  <p class="mt-2 text-[color:var(--color-text-muted)]">
+    Let's build something together!
+  </p>
   <div class="mt-6 flex justify-center">
-    <Button href="https://github.com/holdmyspot/" variant="secondary" size="md" >
+    <Button href="https://github.com/holdmyspot/" variant="secondary" size="md">
       <span class="inline-flex" aria-hidden="true" set:html={contactIcon} />
       Get in touch
     </Button>
   </div>
-  </div>
-  <script type="module">
-    document.addEventListener('click', (e) => {
-      const target = e.target;
-      if (!(target instanceof HTMLElement)) return;
-      if (target.matches('button[data-copy]')) {
-        const url = target.getAttribute('data-copy');
-        if (!url) return;
-        navigator.clipboard?.writeText(url);
-        const original = target.textContent || 'Copy RSS link';
-        target.textContent = 'Copied!';
-        setTimeout(() => { target.textContent = original; }, 1500);
-      }
-    });
-  </script>
 </footer>

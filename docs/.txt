@@ -1,0 +1,527 @@
+TITOLO: Trascrizione completa del pitch e dei materiali allegati
+
+FILE 1: Pitch diviso.txt
+Slide 2 - Alessio Cascini
+Vi è mai capitato di girare a vuoto per la città, alla ricerca di un posto dove parcheggiare? È una situazione frustrante che tutti abbiamo vissuto almeno una volta. Si perde tempo, si consuma carburante inutilmente e aumenta lo stress.
+
+
+        Slide 3-4
+Questo problema non riguarda solo chi guida, ma contribuisce anche al traffico cittadino, peggiorando la qualità della vita di tutti.
+
+
+        Slide 5
+Per questo abbiamo creato Hold my Spot, un'app che permette di trovare e prenotare il proprio posto auto ancor prima di partire.
+
+
+Ma cosa deve fare l’utente?
+
+
+        Slide 6 - Davide Meucci
+L'utente può scegliere il parcheggio che desidera direttamente da casa con un sistema semplice, facile ed intuitivo: basta installare l'applicazione o accedere al sito e inserire il nome della città in cui si desidera trovare parcheggio.
+
+
+        Slide 7
+Dopo aver effettuato la ricerca, è sufficiente selezionare l'opzione più conveniente ed effettuare il pagamento. 
+
+
+        Slide 8
+Una volta arrivati, per accedere al parcheggio è sufficiente reclamare il proprio posto direttamente dal telefono: niente attese, niente ricerche inutili, solo la certezza di poter parcheggiare subito.
+
+
+E per il gestore? Quali sono i vantaggi?
+
+
+        Slide 9 - Giulio Fantacci
+Hold my Spot non è un vantaggio solo per l'utente, lo è anche per chi il parcheggio lo gestisce. Rendiamo l'adesione semplicissima! Non servono nuovi macchinari o investimenti costosi. 
+
+
+        Slide 10
+Al gestore basta inserire i dati della struttura e le coordinate per ricevere i pagamenti, digitalizzando l'offerta in modo immediato e senza rischi.
+
+
+        Slide 11
+Offriamo una gestione sicura dei dati degli utenti. Tutte le informazioni personali e di pagamento sono protette attraverso sistemi di crittografia avanzata, rispettando le normative sulla privacy e assicurando la massima trasparenza e sicurezza.
+
+                      Cascini
+Ma perché dovrei scegliere Hold my Spot?
+
+
+        Slide 12 - Davide Meucci
+A differenza nostra, i principali competitor richiedono hardware costosi e si concentrano solo sui grandi hub, lasciando scoperte le città medie e le realtà di provincia. Ed è proprio da queste che noi intendiamo iniziare la nostra attività.
+
+Slide 13
+Le province rappresentano, infatti, uno dei nostri punti di forza insieme alla semplicità di attivazione del sistema.
+
+
+Ma i nostri guadagni da dove arrivano?
+
+
+        Slide 14 - Giulio Fantacci
+Come detto in precedenza, per i gestori il servizio è praticamente gratuito, di fatto il nostro guadagno deriva da una piccola commissione, corrispondente ad €1 più il 20% del prezzo del parcheggio, applicata su ogni prenotazione.
+
+
+        Slide 15
+Abbiamo analizzato i guadagni dei nostri principali competitor e, come possiamo osservare dai grafici, ci aspettiamo di raggiungere il break even point nel terzo anno di attività, passando dai 40.000€ del secondo ai 500.000€, con un profitto netto di 138.000€.
+
+
+        Slide 16 - Tutti
+Questo è il nostro team: (Cascini)
+Io sono Alessio Cascini, CEO di Hold my Spot.
+Io sono Davide Meucci, CPO e Dev di Hold my Spot.
+Io sono Giulio Fantacci, CFO di Hold my Spot.
+
+
+        Slide 17 - Alessio Cascini
+Insieme, vogliamo trasformare il modo in cui ci si muove in città, passando dal caos della ricerca, alla semplicità e comodità di un parcheggio prenotato direttamente dal proprio divano.
+ 
+                      Tutti
+Hold My Spot: parcheggia in un click.
+
+FILE 2: Hold my Spot.pdf
+--- Pagina 1 ---
+Hold my Spot
+Parcheggia in un click
+Progetto di: Alessio Cascini, Giulio Fantacci
+Marco Cappellini, Davide Meucci
+
+--- Pagina 2 ---
+UN PROBLEMA PER TUTTI
+Girare alla ricerca di un
+parcheggio:
+Perdita di tempo
+Consumo di
+carburante
+Aumento di stress
+
+--- Pagina 3 ---
+altre cause
+70%
+ricerca parcheggio
+30%
+UNA DELLE MAGGIORI CUASE DEL TRAFFICO
+
+--- Pagina 4 ---
+Per questo abbiamo
+creato Hold my Spot,
+un’app che permette di
+prenotare un posto auto
+direttamente da remoto.
+SOLUZIONE A QUESTO PROBLEMA
+
+--- Pagina 5 ---
+L'utente può trovare
+parcheggio da casa
+inserendo il nome della
+città.
+Basta installare
+l'applicazione o accedere
+al sito.
+COME FUNZIONA HOLD MY SPOT?
+
+--- Pagina 6 ---
+Per assicurarsi un posto
+auto sono sufficienti 3
+semplici step:
+1.Trova il parcheggio
+2.Scegli il metodo di
+pagamento
+3.Procedi con l’acquisto
+È DAVVERO SEMPLICE !
+
+--- Pagina 7 ---
+Attese
+Arrivati a
+destinazione, basta
+sbloccare il posto auto
+col proprio telefono.
+COSA FARE ARRIVATI AL PARCHEGGIO
+Ricerche inutili
+Posto auto assicurato
+
+--- Pagina 8 ---
+Per il gestore di un
+parcheggio l’adesione è
+semplice e senza necessità
+di nuovi macchinari o
+investimenti costosi.
+COMODO ANCHE PER I GESTORI
+
+--- Pagina 9 ---
+Basta inserire i dati della
+struttura e le coordinate
+per ricevere i pagamenti.
+Si tratta di un’istallazione
+immediata e priva di rischi.
+COME ADERIRE AL SERVIZIO
+
+--- Pagina 10 ---
+Le informazioni sono
+gestite rispettando le
+normative sulla privacy.
+Assicuriamo massima
+trasparenza e sicurezza.
+GESTIONE DEI DATI
+
+--- Pagina 11 ---
+Hold my Spot
+YourParkingSpace
+ParkingMyCar
+Parkimeter
+Prenotazione
+Immediata
+Focus Piccole Province
+Attivazione Zero Costi
+Certezza del Posto
+Risparmio con Prezzo
+Smart
+I NOSTRI COMPETITOR
+
+--- Pagina 12 ---
+Le province e la
+semplicità di attivazione
+sono i nostri principali
+punti di interesse.
+IL NOSTRO FOCUS
+
+--- Pagina 13 ---
+Guadagnamo applicando
+una commissione di €1 in
+aggiunta al 20% del
+prezzo del parcheggio. 
+COME GUADAGNAMO
+
+--- Pagina 14 ---
+Prevediamo un
+aumento dei guadagni
+durante il 3° anno,
+generando un profitto
+annuale di 138.500€
+I NOSTRI GUADAGNI
+
+--- Pagina 15 ---
+CHI SIAMO?
+Alessio Cascini
+CEO & CTO
+Davide Meucci
+CPO & Developer
+Marco Cappellini
+COO & PM
+Giulio Fantacci
+CSO & CFO
+
+--- Pagina 16 ---
+Vogliamo risolvere il caos della ricerca di un
+parcheggio prenotandolo direttamente dal
+proprio divano.
+IL NOSTRO OBIETTIVO
+Hold my Spot
+Parcheggia in un click
+
+FILE 3: Hold my Spot-1.pdf
+--- Pagina 1 ---
+2025 - 2026
+Annual
+Report
+Hold my Spot
+I.T.T.S. Fedi - Fermi
+Andrea Rinaldi
+Emilio Cheche
+
+--- Pagina 2 ---
+Chi siamo
+Mission
+Hold my Spot è una start-up nata per rendere più semplice la ricerca del
+parcheggio in città.
+Siamo un gruppo di studenti dell’I.T.T.S. Fermi-Fermi di Pistoia uniti dalla
+passione per la tecnologia e dal desiderio di trasformare le nostre idee
+in soluzioni concrete. Con Hold my Spot vogliamo contribuire a una
+mobilità urbana più semplice, efficiente e sostenibile.
+Offrire la possibilità di prenotare facilmente posti auto privati da
+remoto, riducendo tempi d'attesa, stress e traffico, per una mobilità
+urbana più efficiente e sostenibile.
+Vision
+Diventare leader nell’ambito della prenotazione di parcheggi privati e
+pubblici "online", creando una rete accessibile che renda la mobilità
+urbana più semplice, rapida e sostenibile.
+2
+
+--- Pagina 3 ---
+Obiettivi
+Come li realizziamo
+Competenze
+Flutter
+HTML & CSS
+GitHub
+Figma
+Rimuovere la necessità di cercare parcheggio.
+Espandersi dalle alle province.
+Garantire la disponibilità del posto fino all'arrivo dell'utente.
+Offrire un servizio facilmente integrabile in qualsiasi parcheggio.
+Offrendo la possibilità di prenotare il parcheggio da remoto.
+Collaborando con i gestori di parcheggi nei piccoli comuni.
+Bloccando il posto quando viene effettuata una prenotazione fino
+all'arrivo dell'utente.
+Necessitando solo un servizio che permetta di modificare i posti
+disponibili da remoto.
+3
+
+--- Pagina 4 ---
+Il nostro prodotto
+Clientela
+Hold My Spot permette di prenotare parcheggi online a distanza, dando
+la sicurezza ai nostri clienti di avere un posto assicurato quando ne
+hanno bisogno.
+Ci rivolgiamo a chi vuole prenotare in maniere esclusiva il proprio
+parcheggio, in modo rapido e sicuro. Il nostro pubblico principale è
+costituito da professionisti urbani, abituati a utilizzare applicazioni
+digitali per organizzare la propria vita quotidiana. Sono persone che
+cercano soluzioni veloci e affidabili per risparmiare tempo, ridurre lo
+stress del traffico e muoversi in modo più efficiente.
+4
+Analisi del contesto
+In realtà caratterizzate da ingorghi e continui rallentamenti, Hold my
+Spot si pone l’obiettivo di semplificare la prenotazione di un parcheggio
+direttamente dall'app, ovunque ci si trovi. Riducendo così lo stress.
+
+--- Pagina 5 ---
+Analisi dei competitor
+Hold my Spot
+YourParkingSpace
+ParkingMyCar
+Parkimeter
+Prenotazione da remoto
+SI
+SI
+SI
+SI
+Focus Comuni e Province
+SI
+NO
+NO
+NO
+Attivazione Zero Costi
+SI
+NO
+SI
+NO
+Certezza del Posto
+SI
+SI
+SI
+SI
+5
+Organigramma
+Alessio Cascini
+CEO & CTO
+Davide Meucci
+CPO & Developer
+Marco Cappellini
+COO & PM
+Giulio Fantacci
+CSO & CFO
+
+--- Pagina 6 ---
+COSTI
+Y1
+Y2
+Y3
+Costo mantenimento servizi
+online
+1000
+3000
+10000
+Costo creazione azienda +
+commercialista
+4000
+2500
+7500
+Marketing
+850
+5000
+56000
+Stipendio dipendenti
+43200
+126000
+288000
+Sviluppo manager panel
+5000
+Costo totale
+54050
+136500
+361500
+GUADAGNI
+Guadagni commissioni
+15000
+40000
+500000
+Kickstarter
+5000
+0
+0
+Profitto netto
+-34050
+-96500
+138500
+Financial plan
+6
+
+--- Pagina 7 ---
+Lettera dell'amministratore
+delegato 
+Carissimi Stakeholder,
+nell'ultimo anno Hold my Spot ha trasformato l’ambizione di risolvere lo
+stress del parcheggio in una soluzione digitale concreta.
+Dopo aver completato l'interfaccia utente, siamo ora concentrati sullo
+sviluppo 
+del 
+manager 
+panel. 
+Questo 
+strumento 
+permetterà
+l'aggiornamento dei posti in tempo reale, garantendo all'utente la
+certezza assoluta della disponibilità al suo arrivo.
+Ci distinguiamo dai competitor puntando sulle realtà di provincia,
+offrendo ai gestori un sistema di adesione immediato, privo di costi
+hardware o infrastrutturali. Questo modello ci permette di guardare con
+fiducia a un obiettivo di fatturato di 500.000€ entro il terzo anno,
+semplificando radicalmente la mobilità dei professionisti urbani.
+Il nostro impegno è totale: vogliamo che ogni click si traduca in un
+parcheggio assicurato. Grazie per la fiducia che riponete in noi.
+Con sincera gratitudine,
+Alessio Cascini Amministratore Delegato, Hold my Spot.
+7
+
+--- Pagina 8 ---
+Totale costi
+Nel grafico (posizione) è rappresentata la spesa totale prevista nei primi
+tre anni di attività della startup.
+In particolare:
+Anno 1: 54.050 €
+Anno 2: 134.000 €
+Anno 3: 354.000 €
+8
+Queste spese derivano principalmente da diverse voci di costo, tra cui: 
+Mantenimento dei servizi online
+Creazione dell’azienda
+Attività di marketing
+Atipendi dei dipendenti
+Sviluppo del manager panel.
+Come si può osservare, è presente un aumento progressivo delle spese
+nel corso degli anni, dovuto ai crescenti investimenti necessari per
+migliorare e ampliare il nostro servizio.
+
+--- Pagina 9 ---
+Ricavi
+L’obiettivo finanziario della nostra startup è raggiungere un profitto
+netto di almeno 138.500 €.
+Si osserva un aumento molto significativo dei ricavi tra il secondo e il
+terzo anno: questo avviene perché, dopo aver raggiunto una
+determinata soglia di guadagni e dopo un periodo di consolidamento
+dell’azienda, gli investitori iniziano a mostrare un forte interesse nel
+progetto.
+Il loro ingresso permette un incremento rilevante dei capitali disponibili,
+che si traduce in un notevole aumento dei ricavi e in una crescita
+accelerata dell’azienda.
+9
+
+--- Pagina 10 ---
+Business Model Canva
+TARGET
+ 
+Professionisti urbani
+Utenti che cercano
+soluzioni rapide per
+parcheggiare in città.
+Turisti, visitatori
+occasionali e aziende.
+10
+PROPOSTA DI
+VALORE
+ 
+Parcheggi prenotabili al
+100% tramite app e sito.
+Riduzione del traffico.
+Suggerimenti intelligenti
+per scegliere il
+parcheggio migliore.
+CANALI
+ 
+App e sito web per
+ricerca e prenotazione.
+Notifiche ed email per
+aggiornamenti e
+assistenza.
+Assistenza direttamente
+in app.
+Social per promozioni e
+comunicazione.
+RELAZIONI CON I
+CLIENTI
+ 
+Supporto rapido e user-
+friendly via chat ed email.
+Comunicazioni chiare su
+prenotazioni e modifiche.
+Gestione feedback e
+risoluzione veloce dei
+problemi.
+FLUSSI DI RICAVI
+ 
+Commissioni sulle
+prenotazioni effettuate.
+Servizi premium per
+gestori (dashboard,
+report, pubblicità)
+RISORSE CHIAVE
+ 
+Server, database e
+sistemi di pagamento
+integrati.
+Team di sviluppo e
+supporto clienti.
+Accordi con gestori di
+parcheggi.
+ATTIVITA CHIAVE
+ 
+Sviluppo e manutenzione
+software.
+Gestione dati e
+disponibilità parcheggi.
+Customer support e
+assistenza utenti.
+Espansione rete
+parcheggi e partner.
+STRUTTURA DEI
+COSTI
+ 
+Sviluppo e manutenzione
+software.
+Infrastruttura server e
+sistemi di pagamento.
+Marketing, assistenza
+clienti e team operativo.
+Costi legali, sicurezza e
+conformità.
+
+--- Pagina 11 ---
+Bilancio stimato
+Costi attuali
+Il nostro bilancio previsto riflette le nostre stime di spese e ricavi per i
+prossimi tre anni. Siamo fiduciosi nel nostro potenziale di generare
+profitti e continuiamo a lavorare duramente per garantire il successo a
+lungo termine di Hold my Spot.
+Costi principali:
+Sviluppo e manutenzione software
+Infrastruttura server e sicurezza
+Integrazioni con sistemi di accesso e pagamenti
+Assistenza clienti e marketing
+Altri costi:
+Onboarding e gestione partner
+Compensi al team tecnico e commerciale
+Spese legali, assicurative e operative
+Costi ricorrenti:
+Hosting e monitoraggio sistemi
+Campagne promozionali locali
+Aggiornamenti di sicurezza e conformità
+11
